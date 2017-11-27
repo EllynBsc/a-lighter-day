@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).on("scroll",function(){var o=$(this).scrollTop();$("#box-one").css({transform:"translateY("+o/2+"px)"})})});
