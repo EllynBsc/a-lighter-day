@@ -1,90 +1,48 @@
-.description {
-  text-align:center;
-  color: black;
+// .description {
+//   text-align:center;
+//   color: black;
+// }
+
+
+// .description h1 {
+//   font-size: 24px;
+// }
+
+// .description p{
+//   font-size:18px;
+// }
+p {
+  font-size: 18px;
+
 }
 
 
-.description h1 {
-  font-size: 24px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.description p{
-  font-size:18px;
+body {
+    padding-top: 40px;
+    min-height: 2000px;
+    color:white;
 }
 
 
-#cssSlider {
-  width: 800px;
-  height: 300px;
-  overflow: hidden;
-  border: 10px solid #666;
+
+.box {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-#sliderImages {
-  width : 4000px;
-  height: 300px;
-  overflow: hidden;
-
-  /* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
-  animation: slide 16s infinite;
-  -moz-animation: slide 16s infinite;
-  -webkit-animation: slide 16s infinite;
-  -o-animation: slide 16s infinite;
+.box--one {
+    background-color: grey;
 }
 
-#sliderImages img {
-  float: left;
-}
-
-@keyframes slide{
-  0%{margin-left: 0px;}
-  17%{margin-left: 0px;}
-  20%{margin-left: -800px;}
-  37%{margin-left: -800px;}
-  40%{margin-left: -1600px;}
-  57%{margin-left: -1600px;}
-  60%{margin-left: -2400px;}
-  77%{margin-left: -2400px;}
-  80%{margin-left: -3200px;}
-  97%{margin-left: -3200px;}
-  100%{margin-left: 0px;}
-}
-
-@-moz-keyframes slide{
-  0%{margin-left: 0px;}
-  17%{margin-left: 0px;}
-  20%{margin-left: -800px;}
-  37%{margin-left: -800px;}
-  40%{margin-left: -1600px;}
-  57%{margin-left: -1600px;}
-  60%{margin-left: -2400px;}
-  77%{margin-left: -2400px;}
-  80%{margin-left: -3200px;}
-  100%{margin-left: -3200px;}
-}
-
-@-webkit-keyframes slide{
-  0%{margin-left: 0px;}
-  17%{margin-left: 0px;}
-  20%{margin-left: -800px;}
-  37%{margin-left: -800px;}
-  40%{margin-left: -1600px;}
-  57%{margin-left: -1600px;}
-  60%{margin-left: -2400px;}
-  77%{margin-left: -2400px;}
-  80%{margin-left: -3200px;}
-  100%{margin-left: -3200px;}
-}
-
-@-o-keyframes slide{
-  0%{margin-left: 0px;}
-  17%{margin-left: 0px;}
-  20%{margin-left: -800px;}
-  37%{margin-left: -800px;}
-  40%{margin-left: -1600px;}
-  57%{margin-left: -1600px;}
-  60%{margin-left: -2400px;}
-  77%{margin-left: -2400px;}
-  80%{margin-left: -3200px;}
-  100%{margin-left: -3200px;}
+.box--two {
+    background-color: black;
+    position: relative;
+    z-index: 1;
 }
