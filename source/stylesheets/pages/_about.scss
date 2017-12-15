@@ -20,13 +20,22 @@
 }
 
 .box--one {
-  background-color: black;
-  color:white;
+  background-color: white;
+  color:black;
 }
 
 .box--two {
-  background-color:white;
+  background-color:rgb(210, 210, 210);
   color:black;
+}
+.box--three {
+  background-color:rgb(100,100,100);
+  color:white;
+}
+
+.box--four {
+  background-color: black;
+  color:white;
 }
 
 .top-margin {
